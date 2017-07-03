@@ -72,7 +72,9 @@ img { border: 0; max-width: 100%; }
 
 .header{ border-top:1px solid white; width:1080px;}
 
-.logo{ margin-top:29px; margin-left:24px;}
+.f1{ margin-left:24px;}
+
+#logoName{float: right; margin-top: 30px; margin-right: 20px; font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #49CBCD}
 
 ul.social{ margin-top:15px; margin-left:10px; font-size:12px;}
 
@@ -98,16 +100,6 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
   display: block;
   width: 100%;
   position: relative;
-}
-
-#topnav .logo {
-  float: left;
-  padding: 1.57em 0em;
-}
-#topnav .logo a {
-  text-decoration: none;
-  padding: 3px 7px;
-  display:block;
 }
 
 #topnav #navbtn {
@@ -224,7 +216,7 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
 }
 /*---start-top-slider----*/
 .slider{
-	background:#49CBCD url(../images/m.jpeg) no-repeat;
+	background:#49CBCD no-repeat;
 	background-size: 100% 100%;
 }
 /*---end-top-slider----*/
