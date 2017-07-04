@@ -214,7 +214,7 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
     display: block;
   }
 }
-
+/*customize start*/
 .full-width {
     width: 100%;
 }
@@ -242,6 +242,20 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
 	font-size: 20px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.content p{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 3px;
+	margin-bottom: 5px;
+}
+.content h3{
+	margin-bottom: 40px;
+	width: 100%;
+}
+.team{
+	margin-top: 100px;
+}
+/*customize end*/
 /***************start-service************/
 .service-grids{
 	margin:5em 0;
@@ -1547,13 +1561,6 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 768px)
 {
-	.images_1_of_4:nth-child(3),.images_1_of_4:nth-child(4)
-	{
-		display: none;
-	}
-	.images_1_of_4 {
-	width: 47.6%;
-	}
 	span.rollover {
 	height: 221px;
 	width: 222px;
