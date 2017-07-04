@@ -214,12 +214,34 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
     display: block;
   }
 }
-/*---start-top-slider----*/
-.slider{
-	background:#49CBCD no-repeat;
-	background-size: 100% 100%;
+
+.full-width {
+    width: 100%;
 }
-/*---end-top-slider----*/
+
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+.carousel-caption h1{
+	font-size: 50px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /***************start-service************/
 .service-grids{
 	margin:5em 0;
@@ -290,6 +312,35 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
 .images_1_of_4 .button a:hover{
 	   background: #296E6F;
         text-decoration:none;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 980px)
+{
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 768px)
+{
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px)
+{
+	
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 250px;
+  }
 }
 /***************end-servivice************/
 /***************start-portfolio************/
