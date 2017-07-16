@@ -255,6 +255,9 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
 .team{
 	margin-top: 100px;
 }
+.portfolio_main .content {
+	padding-bottom: 100px;
+}
 /*customize end*/
 /***************start-service************/
 .service-grids{
@@ -277,6 +280,10 @@ ul.social li.socialb a{background:url(../images/iconblog.png) no-repeat center t
 .images_1_of_4:first-child { 
 	margin-left: 0; 
 } 
+.customize_images_1_of_4_last_child{
+	margin-right: 25%;
+}
+
 .images_1_of_4 {
 	width: 21.6%;
 }
